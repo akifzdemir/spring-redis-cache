@@ -28,19 +28,19 @@ Crud App using Redis Cache, Spring boot and PostgreSQL
 #### Add product
 
 ```http
-  GET /api/product/${id}
+  GET /api/product/add
 ```
 
 #### Update product
 
 ```http
-  GET /api/product/${id}
+  GET /api/product/update/${id}
 ```
 
 #### Delete product
 
 ```http
-  GET /api/product/${id}
+  GET /api/product/delete/${id}
 ```
 
 ## Screenshots
